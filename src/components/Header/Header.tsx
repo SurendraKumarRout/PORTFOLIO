@@ -34,16 +34,16 @@ export function Header() {
         <label htmlFor="switch">Toggle</label>
 
         <nav className={isActive ? 'active' : ''}>
-          <NavHashLink smooth to="#home" onClick={closeMenu}>
+          <NavHashLink smooth to="home" onClick={closeMenu}>
             HOME
           </NavHashLink>
-          <NavHashLink smooth to="#sobre" onClick={closeMenu}>
+          <NavHashLink smooth to="about" onClick={closeMenu}>
             ABOUT ME
           </NavHashLink>
-          <NavHashLink smooth to="#portfolio" onClick={closeMenu}>
+          <NavHashLink smooth to="project" onClick={closeMenu}>
             PROJECT
           </NavHashLink>
-          <NavHashLink smooth to="#contato" onClick={closeMenu}>
+          <NavHashLink smooth to="contact" onClick={closeMenu}>
             ConTACT
           </NavHashLink>
           <a href={Curriculo} download className="button">
