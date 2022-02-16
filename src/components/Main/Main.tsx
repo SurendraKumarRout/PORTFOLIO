@@ -10,6 +10,9 @@ import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
+import mongoIcon from "../../assets/mongoDb.png";
+import expressIcon from "../../assets/express.png";
+import mongooseIcon from "../../assets/mongoose.png";
 import mysqlIcon from "../../assets/mysql-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
@@ -29,7 +32,7 @@ export function Main() {
             zIndex: 1,
           },
           detectRetina: true,
-          fpsLimit: 60,
+          fpsLimit: 144,
           interactivity: {
             events: {
               onClick: {
@@ -73,14 +76,14 @@ export function Main() {
                 },
               },
               push: {
-                quantity: 2,
+                quantity: 4,
               },
               remove: {
                 quantity: 2,
               },
               repulse: {
                 distance: 200,
-                duration: 0.4,
+                duration: 0.2,
               },
             },
           },
@@ -156,12 +159,27 @@ export function Main() {
                   height: 20,
                 },
                 {
+                  src: expressIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: mongoIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
                   src: cssIcon,
                   width: 20,
                   height: 20,
                 },
                 {
                   src: htmlIcon,
+                  width: 20,
+                  height: 20,
+                },
+                {
+                  src: mongooseIcon,
                   width: 20,
                   height: 20,
                 },
@@ -202,7 +220,7 @@ export function Main() {
                 },
               ],
               polygon: {
-                sides: 5,
+                sides: 10,
               },
               stroke: {
                 color: "#000000",
@@ -230,7 +248,7 @@ export function Main() {
             move: {
               radius: 10,
             },
-            scale: 1,
+            scale: 10,
             url: "",
           },
           background: {
