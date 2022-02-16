@@ -20,7 +20,7 @@ export function About() {
           <h2>ABOUT ME</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <p id="head">I am Surendra ROUT</p>
+          <p id="head">I am Surendra</p>
           <br></br>
           <p>
             Dynamic and technically-sound aspiring full-stack developer who
