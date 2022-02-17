@@ -88,12 +88,12 @@ export function Tools() {
               </ScrollAnimation>
             </div>
 
-            <div className="hability">
+            {/* <div className="hability">
               <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
                 <img src={mongooseIcon} alt="Mongoose" />
                 <p>MONGOOSE</p>
               </ScrollAnimation>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
