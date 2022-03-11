@@ -23,11 +23,10 @@ export function About() {
           <p id="head">I am Surendra</p>
           <br></br>
           <p>
-            Dynamic and technically-sound aspiring full-stack developer who
-            always finds room for improvement. Self-motivated and flexible, with
-            a keen interest to learn and adopt new technologies. Looking forward
-            to utilizing and enhancing my skills in a challenging work
-            environment.
+            A front-end oriented aspiring full stack web developer who enjoy
+            creating things that live on the internet. I am passionate about
+            solving real-world problems in the field of web development and
+            software engineering.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -36,15 +35,16 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            I develop websites and applications using HTML, CSS, and JavaScript.
-            I am familiar with developing layouts that they provide me. I'm
-            always improving myself with each project I get my hands on.
+            I develop websites using HTML, CSS, JavaScript and React. I'm always
+            improving myself with each project I get my hands on, I always seek
+            to achieve my best version.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
           <p>
-            I am a dedicated person who pursues his dreams, hardworking and
-            results oriented, I always seek to achieve my best version.
+            Learned a great deal about teamwork, leadership, and communication.
+            After months of rigorous training, Eager to be a part of a team
+            which gives me ability to learn and grow .
           </p>
         </ScrollAnimation>
       </div>
